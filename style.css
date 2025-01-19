@@ -27,12 +27,13 @@ body {
   background-color: hsl(0, 0%, 12%);
   padding: 3rem 3rem 1.5rem;
   border-radius: 1rem;
-  box-shadow: 0 0.3rem 0.3rem hsl(0, 0%, 8%);
+  box-shadow: 0 1rem 1rem hsl(0, 0%, 15%);
 }
 .container img {
   border-radius: 50%;
-  height: 10rem;
-  width: 10rem;
+  height: 12rem;
+  width: 12rem;
+  border: 1px solid rgb(126, 124, 124);
 }
 .title {
   padding: 2rem 0;
@@ -55,7 +56,7 @@ body {
   color: hsl(0, 0%, 100%);
   text-decoration: none;
 
-  margin: 1.2rem;
+  margin: 1rem;
   min-width: 33rem;
   padding: 1rem 4rem;
   border-radius: 0.5rem;
