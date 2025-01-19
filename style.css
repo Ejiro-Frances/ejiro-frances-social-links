@@ -1,4 +1,7 @@
-* {
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -15,7 +18,7 @@ body {
   min-height: 100vh;
   color: hsl(0, 0%, 100%);
   background: hsl(0, 0%, 8%);
-  font-family: "Inter";
+  font-family: "Inter" serif;
   font-size: 1.6rem;
 }
 .container {
@@ -34,11 +37,15 @@ body {
   height: 12rem;
   width: 12rem;
   border: 1px solid rgb(126, 124, 124);
+  object-fit: cover;
 }
 .title {
   padding: 2rem 0;
   text-align: center;
   line-height: 2rem;
+}
+.title--name {
+  letter-spacing: 2px;
 }
 .title p {
   color: hsl(75, 94%, 57%);
